@@ -2,7 +2,7 @@
 /*
 Plugin Name: Simple Hook Widget
 Description: Creates a custom hook within a sidebar in place of a widget
-Version: 1
+Version: 1.1
 Author: Eddie Moya
 */
 
