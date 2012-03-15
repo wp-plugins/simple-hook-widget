@@ -14,7 +14,9 @@ This widget allows the user to insert a hook, with a name of their choosing, in 
 
 The hook can be anything, an existing hook from the WordPress Core, a plugin, a theme, or something you've come up with on the fly. Once the hook exists, your plugins, your theme, or the WordPress Core to make something happen with that hook.
 
-This can be used in conjunction with other more complex plugins, to allow you to trigger a hook from the sidebar (yes, that is intentionally vague). It can also serve as a quick alternative to making very simple widgets tied to code from a theme. Say you have a chunk of code which already exists on your site, you'd like to also have it placed in a sidebar, but don't want to make a widget out of it (since its entirely theme-centric). You could simply hook this chunk of code to a custom hook and use the Simple Hook Widget to place that custom hook in the sidebar. This is absolutely not an endorsement toward that strategy for widget development, but there may be times where such on option is useful to a developer in a pinch.
+This can be used in conjunction with other more complex plugins, to allow you to trigger a hook from the sidebar (yes, that is intentionally vague). It can also serve as a quick alternative to making very simple widgets tied to code from a theme. Say you have a chunk of code which already exists on your site, you'd like to also have it placed in a sidebar, but don't want to make a widget out of it (since its entirely theme-centric). You could simply hook this chunk of code to a custom hook and use the Simple Hook Widget to place that custom hook in the sidebar. 
+
+This is clearly not the best method of widget development, but there may be times where such on option is useful to a developer in a pinch.
 
 = Update 2.0 =
 * New filter which allows developers to specify what hooks are available to choose from.
